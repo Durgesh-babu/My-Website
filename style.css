@@ -7,3 +7,12 @@
 .nav .container {
     display: flex;
 }
+
+a{
+    text-decoration: none;
+    color: rgb(126, 11, 234);
+
+}
+a:hover{
+    color: rgb(169, 110, 224);
+}
