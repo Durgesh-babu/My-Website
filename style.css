@@ -8,21 +8,30 @@
 .nav .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #810bef;
+    height: 100%;
+    padding: 5px;
 }
 
 .nav .container .logo {
     font-weight: bold;
     font-size: 24px;
+    color: #fff;
 }
 
 a{
     text-decoration: none;
-    color: rgb(126, 11, 234);
+    color: #fff;
 }
 a:hover{
-    color: rgb(169, 110, 224);
+    color: #a96ee0;
 }
 
 .nav .container ul {
     list-style: none;
+    display: flex;
+}
+.nav .container li {
+    margin-right: 20px;
 }
